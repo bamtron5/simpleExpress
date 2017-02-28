@@ -1,0 +1,23 @@
+{
+  "name": "0402_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/body-parser": "0.0.34",
+    "@types/express": "^4.0.35",
+    "@types/helmet": "0.0.33",
+    "body-parser": "^1.16.1",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.6",
+    "express": "^4.14.1",
+    "helmet": "^3.4.1",
+    "morgan": "^1.8.1",
+    "path": "^0.12.7"
+  }
+}
