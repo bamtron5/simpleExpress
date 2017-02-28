@@ -8,6 +8,8 @@ import * as http from 'http';
 
 // API ROUTES
 import * as ping from './api/ping';
+import * as rabbit from './api/rabbit';
+
 
 let app = express();
 
@@ -27,6 +29,7 @@ app.get('/', (req, res, next) => {
 
 // BOOTSTRAP YOUR APIS
 app.use('/api', ping);
+app.use('/api', rabbit);
 
 let server = http.createServer(app);
 
